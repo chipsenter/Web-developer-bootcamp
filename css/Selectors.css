@@ -1,0 +1,54 @@
+/*Selectors*/
+
+/* 3 Element selector LEAST IMPORTANT*/ 
+
+li {
+	
+}
+
+
+/* 2 Class MORE SPECIFICITY*/ 
+
+.name {
+	
+}
+
+/* 1 ID MOST SPECIFICITY*/
+
+#name {
+	
+}
+
+/*star*/
+
+* {
+	border: 1px	solid grey;
+}
+
+/*Descendant Selector LITTLE MORE SPECIFICITY*/
+
+li a {
+	color: blue;
+}
+
+/*Adjacent Selector*/ 
+
+h4 + ul {
+	border: 3px solid red;
+}
+
+/*Attribute Selector*/
+
+a[href="http://www.google.com"] {
+	color: red;
+}
+input[type="text"] {
+	color: blue;
+}
+
+/*Nth of type*/
+/*Specific option to change values of something*/
+
+ul:nth-of-type(3) {
+	background: green;
+}

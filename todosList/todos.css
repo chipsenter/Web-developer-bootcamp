@@ -1,0 +1,33 @@
+li {
+	border: 2px solid red;
+}
+
+#special {
+	background-color: green;
+	color: yellow;
+}
+
+.checked {
+	text-decoration: line-through;
+}
+
+.heidi {
+	background-color: red;
+	font-family: helvetica;
+	color: black;
+
+}
+
+body {
+	background: #7CD3F9;
+}
+
+h1 {
+	color: red;
+	font-style: italic;
+	text-shadow: black 0 2px;
+}
+.accomplished {
+	color: purple;
+	text-shadow: black 0 2px;
+}

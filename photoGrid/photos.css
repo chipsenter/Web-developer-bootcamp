@@ -1,0 +1,22 @@
+img {
+	width: 30%;
+	float: left;
+	margin: 1.46%;
+	border: 1px solid red;
+}
+
+h1 {
+	font-family: Metal Mania;
+	text-align: center;
+	font-size: 5em;
+	text-shadow: 2px 2px red;
+	border-bottom: 1px solid red;
+	width: 100%;
+	padding-bottom: 20px;
+}
+
+body {
+	background-image: url("https://www.walldevil.com/wallpapers/a86/patterns-pattern-wood-screensavers-wallpaper-wallpapers-wallpaperstock.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}

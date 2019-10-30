@@ -1,0 +1,48 @@
+
+/*BORDER*/
+
+
+/*PADDING*/
+
+
+
+/*MARGIN*/
+
+body {
+	background-color: lightgray;
+}
+
+h1 {
+	text-align: center;
+}
+
+td {
+	width: 100px;
+	height: 100px;
+	background: green;
+	
+
+}
+
+.vertical {
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+.horizontal {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+table{
+	margin: auto;
+}
+
+.one {
+	background-color: black;
+}
+.three {
+	background-color: black;
+}
+.two {
+	background-color: black;
+}

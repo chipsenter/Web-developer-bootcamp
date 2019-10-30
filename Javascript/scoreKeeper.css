@@ -1,0 +1,20 @@
+.winner {
+  color: green;
+}
+
+body {
+  background: burlywood;
+}
+
+#inputDisplayScore{
+  font-size: 25px;
+}
+
+#p1 {
+  background-color: blue;
+  color: whitesmoke;
+}
+#p2 {
+  background-color: red;
+  color: whitesmoke;
+}

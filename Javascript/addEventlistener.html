@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Click Me</title>
+  <style>
+    button{
+      height: 45px;
+      width: 55px;     
+    }
+    .green {
+        background: green;
+    }
+  
+  </style>
+
+</head>
+<body>
+  <button>Click Me!</button>
+  
+  <script>
+    
+    var button = document.querySelector("button");
+
+    // var isGreen = false;   
+
+    // button.addEventListener("click", function(){
+    //   if(isGreen){
+    //     document.body.style.background = "white";        
+    //   }else {
+    //     document.body.style.background = "green";        
+    //   }  
+    //   isGreen = !isGreen; 
+
+    // })
+
+    button.addEventListener("click", function(){
+      document.body.classList.toggle("green")
+    })
+  
+  
+  </script>
+</body>
+</html>
